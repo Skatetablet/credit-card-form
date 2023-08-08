@@ -198,12 +198,12 @@ button:hover {
         background-image: url("images/bg-card-front.png");
         background-size: contain;
         background-repeat: no-repeat;
-        height: 175px;
-        width: 377px;
+        height: 155px;
+        width: 357px;
         color: #fff;
         position:absolute;
         top: 20%;
-        left: 2%;
+        left: 3%;
         z-index: 999;
     }
     
@@ -211,11 +211,11 @@ button:hover {
         background-image: url("images/bg-card-back.png");
         background-size: contain;
         background-repeat: no-repeat;
-        height: 195px;
-        width: 397px;
+        height: 155px;
+        width: 357px;
         position:absolute;
         top: 1%;
-        left: 18%;
+        left: 19%;
     }
 
     .containerForm {
@@ -252,8 +252,8 @@ button:hover {
 
       #cvv {
         position: absolute;
-        top: 35%;
-        left: 70%;
+        top: 33%;
+        left: 60%;
     }
 }
 
