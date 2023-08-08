@@ -221,7 +221,7 @@ button:hover {
     .containerForm {
         background-color: transparent;
         position: absolute;
-        top: 90%;
+        top: 80%;
         left: 55%;
         transform: translate(-50%, -50%);
         padding: 15px;
@@ -236,7 +236,7 @@ button:hover {
       .containerThankYou {
         background-color: transparent;
         position: absolute;
-        top: 110%;
+        top: 150%;
         left: 55%;
         transform: translate(-50%, -50%);
         padding: 15px;
@@ -252,8 +252,29 @@ button:hover {
 
       #cvv {
         position: absolute;
-        top: 33%;
-        left: 60%;
+        top: 32%;
+        left: 73%;
+    }
+
+    #cName {
+        position: absolute;
+        top: 72%;
+        left: 7%;
+        font-size: 14px;
+    }
+    
+    #cNumber {
+        position:absolute;
+        top: 35%;
+        left: 7%;
+        font-size: 25px;
+    }
+    
+    #cExpDate {
+        position:absolute;
+        top: 72%;
+        left: 75%;
+        font-size: 14px;
     }
 
     button {

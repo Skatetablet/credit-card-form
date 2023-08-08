@@ -46,7 +46,7 @@ export const App = () => {
         const name = e.target.name;
         const value = e.target.value;
 
-        const reL = /^[A-Za-z]+$/;
+        const reL = /^[a-zA-Z ]+$/;
         if (value === "" || reL.test(value)) {
             setData({...data, [name]: value})
     }
