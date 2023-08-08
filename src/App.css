@@ -225,7 +225,7 @@ button:hover {
         left: 55%;
         transform: translate(-50%, -50%);
         padding: 15px;
-        width: 410px;
+        width: 375px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -254,6 +254,17 @@ button:hover {
         position: absolute;
         top: 33%;
         left: 60%;
+    }
+
+    button {
+        height: 42px;
+        width: 95%;
+        border: 0px;
+        border-radius: 4px;
+        margin-top: 20px;
+        background-color: hsl(234, 29%, 20%);
+        color: #fff;
+        font-size: 13px;
     }
 }
 
